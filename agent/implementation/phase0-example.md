@@ -2,9 +2,9 @@
 
 <TASKS prepend>
 
-- [] Create a FastAPI application.
-- [] Define an endpoint `/webhook` to receive POST requests.
-- [] Process the incoming payload and log the data.
+- [ ] Create a FastAPI application.
+- [ ] Define an endpoint `/webhook` to receive POST requests.
+- [ ] Process the incoming payload and log the data.
 
-</TASKS prepend>
+</TASKS>
 
