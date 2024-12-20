@@ -1,3 +1,5 @@
+<INSTRUCTION immutable>
+
 # Development Standards
 
 This directory contains the development standards and guidelines for this project. These standards ensure consistency, maintainability, and quality across the codebase.
@@ -32,3 +34,4 @@ Guidelines for documenting the codebase, emphasizing:
 
 All contributions to the codebase must adhere to these standards. Please review the relevant documents before making changes or additions to the project.
 
+</INSTRUCTION>
