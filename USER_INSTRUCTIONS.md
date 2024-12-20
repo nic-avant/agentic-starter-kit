@@ -7,3 +7,6 @@ The idea behind this repo is to give developers working with tools like Windsurf
 ## Setup
 
 1. Start with ChatGPT (or yourself) to flesh out an overview of your project. Drop that into [design overview](./agent/design/overview.md)
+2. Work with your model to document the [tech stack](/agent/design/tech-stack.md)
+3. Then work with your model to perform the task of filing out the [deliverables](/agent/design/deliverables.md) based on the overview and the tech stack.
+4. Finally go back and forth with the agent to design the implenetation phases in [project-phases](/agent/implementation/project-phases.md)
