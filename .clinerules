@@ -1,0 +1,44 @@
+# Cline Rules
+
+## Critical Rules
+- Do not write unit tests unless explicitly requested
+- Review `agent/standards/index.md` before starting any new task
+- Review `agent/design/index.md` before adding new constructs or features
+- Review `agent/tracking/defects.md` before making codebase changes
+
+## Documentation Rules
+- Record task progress by marking completed tasks with `[x]` in checkboxes
+- Document all changes in `agent/tracking/checkpoints.md` with:
+  - New information obtained
+  - Instructions given
+  - Changes made
+  - Add newest updates at the top
+- Update `README.md` when the checkpoints document is updated
+
+## Tag Handling Rules
+1. Immutable Tags
+   - NEVER modify content within tags marked with `immutable` property
+   - Example: `<INSTRUCTION immutable>content cannot be changed</INSTRUCTION>`
+
+2. Append Tags
+   - ONLY ADD to the end of content in tags with `append` property
+   - Example: `<LOG append>existing content - new content goes at end</LOG>`
+
+3. Prepend Tags
+   - ONLY ADD to the beginning of content in tags with `prepend` property
+   - Example: `<LOG prepend>new content goes here - existing content</LOG>`
+
+4. Ignore Tags
+   - ALWAYS IGNORE content within tags marked with `ignore` property
+   - Example: `<LOG ignore>this content is ignored</LOG>`
+
+5. Tasks Tags
+   - Used for markdown-formatted task lists
+   - Can use either `append` or `prepend` properties
+   - ONLY modify checkbox status ([ ] → [x])
+   - Example: `- [ ] Task to be completed` → `- [x] Completed task`
+
+## General Guidelines
+- Prioritize accuracy and completeness in all work
+- Ask for clarification when needed
+- Seek guidance when in doubt

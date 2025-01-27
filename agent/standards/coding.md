@@ -74,4 +74,5 @@ Avoid fat interfaces. Classes should never have to implement methods that violat
 Implement each method as either a query or a command. Apply naming convention to method names that implies whether the method is a query or a command.
 
 - By clearly separating methods into queries and commands the programmer can code with additional confidence without knowing each method's implementation details.
+
 </INSTRUCTION>
